@@ -5,4 +5,4 @@ metadata:
 spec:
   containers:
     - name: conta
-      image: nginx
+      image: unix
