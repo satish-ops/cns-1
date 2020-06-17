@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pvolume
+  labels:
+    app: pvpod      
+spec:
+  storageClassName: testpv
+  capacity:
+    storage: 2Gi     
+  accessModes:
+    -  ReadWriteOnce 
+  hostPath:
+    path: "/data/maha"
+  persistentVolumeReclaimPolicy: Retain 
