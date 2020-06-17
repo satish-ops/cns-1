@@ -4,8 +4,8 @@ metadata:
   name: test
 spec:
   containers:
-    - name: conta
-      image: httpd
+    - name: contaa
+      image: httpdddddd
       
       
       
